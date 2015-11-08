@@ -15,5 +15,6 @@ ENV JUPYTER_USER=jupyter \
     JUPYTER_UID=1555 \
     JUPYTER_GID=1555 \
     JUPYTER_HOME=/scratch
+    JUPYTER_PASS=jupyter
 #CMD jupyter notebook --no-browser --ip=* --port=9803
 CMD /usr/bin/startup
